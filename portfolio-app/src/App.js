@@ -19,7 +19,7 @@ function App() {
         <a href="/entries" className="navbar-brand m-3">
           Education
         </a>
-        <a href="contact-session" className="navbar-brand m-3">
+        <a href="#contact-session" className="navbar-brand m-3">
           Contact
         </a>
         <a href="../assets/resume.pdf" className="navbar-brand m-3">
