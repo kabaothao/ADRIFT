@@ -1,7 +1,7 @@
 # React-Portfolio
 
 > Outline a brief description of your project.
-- Live Demo [_here_](https://budgettracker-app.herokuapp.com/). 
+- Live Demo [_here_](https://kabaothao.github.io/React-Portfolio/). 
 
 
 
@@ -22,7 +22,7 @@
 ## General Information
 
 - What is the purpose of your project?
-- To build a budget tracker application to add expenses and deposits with or without a connection. 
+- To build a react portfolio application. 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
@@ -34,7 +34,7 @@
 - Robo 3T 
 - Git Bash
 - Mongodb
-- Heroku
+- React
 
 ## Features
 
@@ -52,14 +52,7 @@
 Project requirements:
 What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
 
-- The app was deployed on a walkthrough video that demonstrates its functionality.
-- Dependencies:
-- Express.js
-- Dotenv
-- Mongoose
-- Morgan
-- Compression
-- Lite-server
+The project requirements were to create components to store different sections of the react portfolio.
 
 
 
@@ -67,7 +60,7 @@ What are the project requirements/dependencies? Where are they listed? A require
 
 How does one go about using it?
 
-Based on this application the end user would be able to add expenses and deposits to their budget with or without a connection. When a user enter their transactions offline, the user should populate the total when brought back online. 
+Based on this application the end user would be review resume, education, projects, and contacts. 
 
 ## Acknowledgements
 
