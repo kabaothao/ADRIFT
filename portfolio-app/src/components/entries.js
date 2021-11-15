@@ -31,7 +31,7 @@ const Entries = () => {
 
   return (
     <div>
-      <section key="projects">
+      <section key="projects" id="project-section">
         <div className="row">
           {entries.map((entry, i) => {
             return (
