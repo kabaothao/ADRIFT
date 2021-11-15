@@ -43,7 +43,7 @@
 
 ## Screenshots
 
-![Example screenshot](https://github.com/kabaothao/Budget-Tracker/blob/main/assets/imageone.PNG)
+![Example screenshot](https://github.com/kabaothao/React-Portfolio/blob/main/portfolio-app/assets/imageiphone.PNG)
 
 <!-- If you have screenshots you'd like to share, include them here. -->
 
