@@ -22,7 +22,7 @@ function App() {
         <a href="#contact-session" className="navbar-brand m-3">
           Contact
         </a>
-        <a href="../assets/resume.pdf" className="navbar-brand m-3">
+        <a href="https://github.com/kabaothao/React-Portfolio/blob/main/portfolio-app/assets/resume.pdf" className="navbar-brand m-3">
           Resume
         </a>
         <div className="navbar-nav mr-auto">
