@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Entries from "./components/entries";
@@ -52,13 +52,11 @@ function App() {
           </div>
         </div>
       </section>
-      
-      <div className="container mt-3">
-        <Routes>
-          <Route exact path="/" element={<Entries/>} />
-          <Route exact path="/entries" element={<Entries/>} />
-        </Routes>
+
+      <div className="container">
+        <Entries></Entries>
       </div>
+      
       <Footer></Footer>
     </div>
   );
