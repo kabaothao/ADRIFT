@@ -32,6 +32,12 @@ const Entries = () => {
     }
   };
 
+  let isHidden = function(category){
+    return {
+      display: category === "Education" ? 'none': 'inherit'
+    }
+  };
+
   return (
     <div>
        {entries.map((entry, i) => {
@@ -49,7 +55,7 @@ const Entries = () => {
                     <p className="card-text px-3">
                       <small>{d.description}</small>
                     </p>
-                    <div className="card-buttons">
+                    <div className="card-buttons" style={isHidden(entry.category)}>
                       <a target="_blank" rel="noreferrer" href={d.url} className="btn btn-primary col-lg-5 mx-1 mb-1">View Project</a>
                       <a target="_blank" rel="noreferrer" href={d.url} className="btn btn-primary col-lg-5 mx-1 mb-1">View Github</a>
                     </div>
