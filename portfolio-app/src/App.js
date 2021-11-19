@@ -3,6 +3,10 @@ import { Routes, Route, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Entries from "./components/entries";
+import Footer from "./components/Footer";
+
+
+
 
 function App() {
   
@@ -13,13 +17,13 @@ function App() {
         <a href="/entries" className="navbar-brand m-3">
           Home
         </a>
-        <a href="#project-section" className="navbar-brand m-3">
+        <a href="#Project-section" className="navbar-brand m-3">
           Projects
         </a>
-        <a href="/entries" className="navbar-brand m-3">
+        <a href="#Education-section" className="navbar-brand m-3">
           Education
         </a>
-        <a href="#contact-session" className="navbar-brand m-3">
+        <a href="#contact-section" className="navbar-brand m-3">
           Contact
         </a>
         <a href="https://github.com/kabaothao/React-Portfolio/blob/main/portfolio-app/assets/resume.pdf" className="navbar-brand m-3">
@@ -55,6 +59,7 @@ function App() {
           <Route exact path="/entries" element={<Entries/>} />
         </Routes>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

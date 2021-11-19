@@ -65,10 +65,18 @@
     border-radius: 50%;
   }
   
-  footer h5{color:white;}
+  footer h5, .contact {color:white;}
+
+  .error-text {margin-top:15px;}
 
 @media (min-width: 992px){
     .container, .container-lg, .container-md, .container-sm {
         max-width: 980px;
     }
+}
+
+@media (max-width: 720px){
+  .navbar {
+    display: grid;
+  }
 }
